@@ -1,0 +1,16 @@
+01:28:48 **** Build of configuration Debug for project Gpio_driver ****
+make all 
+Building file: ../gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"gpio.d" -MT"gpio.o" -c -o "gpio.o" "../gpio.c"
+Finished building: ../gpio.c
+ 
+Building target: Gpio_driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Gpio_driver.map -mmcu=atmega16 -o "Gpio_driver.elf"  ./gpio.o   
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm16.o:(.init9+0x0): undefined reference to `main'
+make: *** [Gpio_driver.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+01:28:48 Build Failed. 2 errors, 0 warnings. (took 351ms)
+

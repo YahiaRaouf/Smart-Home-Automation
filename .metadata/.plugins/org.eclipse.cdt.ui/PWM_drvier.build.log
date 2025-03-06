@@ -1,0 +1,16 @@
+17:54:06 **** Build of configuration Debug for project PWM_drvier ****
+make all 
+Building file: ../PWM.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"PWM.d" -MT"PWM.o" -c -o "PWM.o" "../PWM.c"
+Finished building: ../PWM.c
+ 
+Building target: PWM_drvier.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,PWM_drvier.map -mmcu=atmega32 -o "PWM_drvier.elf"  ./PWM.o   
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o:(.init9+0x0): undefined reference to `main'
+make: *** [PWM_drvier.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+17:54:07 Build Failed. 2 errors, 0 warnings. (took 653ms)
+

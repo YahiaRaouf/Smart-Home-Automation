@@ -1,0 +1,11 @@
+01:28:49 **** Build of configuration Debug for project LCD_driver ****
+make all 
+Building target: LCD_driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,LCD_driver.map -mmcu=atmega32 -o "LCD_driver.elf"  ./LCD.o ./gpio.o   
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o:(.init9+0x0): undefined reference to `main'
+make: *** [LCD_driver.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+01:28:49 Build Failed. 2 errors, 0 warnings. (took 250ms)
+

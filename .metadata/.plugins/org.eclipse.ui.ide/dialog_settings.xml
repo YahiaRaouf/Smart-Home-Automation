@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.cdt.ui.wizards.NewCWizard2"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.cdt.ui.newCWizards"/>
+		</list>
+		<section name="NewWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="0"/>
+			<item key="DIALOG_Y_ORIGIN" value="0"/>
+			<item key="DIALOG_WIDTH" value="700"/>
+			<item key="DIALOG_HEIGHT" value="505"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\My Stuff\College\Embedded Systems Course\MicroController interfacing I\4.Timers\Timers_Eclipse_WS\Challenge3"/>
+			<item value="C:\My Stuff\College\Embedded Systems Course\C files\MC Interfacing I\Challenge_3_Timer"/>
+			<item value="C:\My Stuff\College\Embedded Systems Course\C files\MC Interfacing I\Challenge_4_Timers"/>
+			<item value="C:\My Stuff\College\Embedded Systems Course\C files\MC Interfacing II"/>
+			<item value="C:\My Stuff\College\Embedded Systems Course\C files\MC Interfacing II\LM35_sensor_driver"/>
+			<item value="C:\My Stuff\College\Embedded Systems Course\C files\MC Interfacing II\ADC_driver"/>
+		</list>
+		<section name="SmartImportWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="619"/>
+			<item key="DIALOG_Y_ORIGIN" value="172"/>
+			<item key="DIALOG_WIDTH" value="1077"/>
+			<item key="DIALOG_HEIGHT" value="726"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+</section>

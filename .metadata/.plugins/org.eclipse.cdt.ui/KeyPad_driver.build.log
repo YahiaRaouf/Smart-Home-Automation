@@ -1,0 +1,23 @@
+01:28:49 **** Build of configuration Debug for project KeyPad_driver ****
+make all 
+Building file: ../gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"gpio.d" -MT"gpio.o" -c -o "gpio.o" "../gpio.c"
+Finished building: ../gpio.c
+ 
+Building file: ../keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"keypad.d" -MT"keypad.o" -c -o "keypad.o" "../keypad.c"
+In file included from ../keypad.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../keypad.c
+ 
+Building target: KeyPad_driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,KeyPad_driver.map -mmcu=atmega16 -o "KeyPad_driver.elf"  ./gpio.o ./keypad.o   
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm16.o:(.init9+0x0): undefined reference to `main'
+make: *** [KeyPad_driver.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+01:28:49 Build Failed. 2 errors, 1 warnings. (took 454ms)
+
